@@ -6,8 +6,8 @@ import (
 
 	pb "github.com/go-chassis/cari/discovery"
 	"github.com/go-chassis/sc-client"
-	"github.com/gososy/gopkg/registry"
 	"github.com/gofrs/uuid"
+	"github.com/gososy/gopkg/registry"
 )
 
 var r *Registry

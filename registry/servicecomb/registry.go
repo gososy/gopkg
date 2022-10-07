@@ -10,9 +10,9 @@ import (
 	"github.com/go-chassis/cari/pkg/errsvc"
 	"github.com/go-chassis/sc-client"
 
+	"github.com/gofrs/uuid"
 	"github.com/gososy/gopkg/log"
 	"github.com/gososy/gopkg/registry"
-	"github.com/gofrs/uuid"
 )
 
 func init() {

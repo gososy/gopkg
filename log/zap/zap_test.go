@@ -22,6 +22,18 @@ func (x *testWriteSyncer) Sync() error {
 	return nil
 }
 
+func TestZapProCfg(t *testing.T) {
+
+	logger, err := zap.NewProductionConfig().Build()
+
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	logger.Info("tets")
+
+}
+
 func TestLogger(t *testing.T) {
 	syncer := &testWriteSyncer{}
 	encoderCfg := zapcore.EncoderConfig{
