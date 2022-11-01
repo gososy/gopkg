@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gososy/gopkg/middleware"
-	"github.com/gososy/gopkg/transport"
+	"github.com/gososy/sorpc/middleware"
+	"github.com/gososy/sorpc/transport"
 )
 
 var _ transport.Transporter = (*Transport)(nil)

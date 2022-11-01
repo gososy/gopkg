@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	testData "github.com/gososy/gopkg/testdata/encoding"
+	testData "github.com/gososy/sorpc/testdata/encoding"
 )
 
 func TestName(t *testing.T) {

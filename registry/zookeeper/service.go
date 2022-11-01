@@ -3,7 +3,7 @@ package zookeeper
 import (
 	"encoding/json"
 
-	"github.com/gososy/gopkg/registry"
+	"github.com/gososy/sorpc/registry"
 )
 
 func marshal(si *registry.ServiceInstance) ([]byte, error) {

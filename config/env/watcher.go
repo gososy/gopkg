@@ -3,7 +3,7 @@ package env
 import (
 	"context"
 
-	"github.com/gososy/gopkg/config"
+	"github.com/gososy/sorpc/config"
 )
 
 type watcher struct {

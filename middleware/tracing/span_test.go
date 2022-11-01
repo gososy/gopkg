@@ -12,9 +12,9 @@ import (
 	"go.opentelemetry.io/otel/trace"
 	"google.golang.org/grpc/peer"
 
-	"github.com/gososy/gopkg/internal/testdata/binding"
-	"github.com/gososy/gopkg/metadata"
-	"github.com/gososy/gopkg/transport"
+	"github.com/gososy/sorpc/internal/testdata/binding"
+	"github.com/gososy/sorpc/metadata"
+	"github.com/gososy/sorpc/transport"
 )
 
 func Test_parseFullMethod(t *testing.T) {

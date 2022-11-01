@@ -3,7 +3,7 @@ package tencent
 import (
 	"testing"
 
-	"github.com/gososy/gopkg/log"
+	"github.com/gososy/sorpc/log"
 )
 
 func TestWithEndpoint(t *testing.T) {

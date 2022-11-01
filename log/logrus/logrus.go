@@ -3,7 +3,7 @@ package logrus
 import (
 	"github.com/sirupsen/logrus"
 
-	"github.com/gososy/gopkg/log"
+	"github.com/gososy/sorpc/log"
 )
 
 var _ log.Logger = (*Logger)(nil)

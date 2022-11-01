@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/gososy/gopkg/transport"
+	"github.com/gososy/sorpc/transport"
 )
 
 var _ Transporter = (*Transport)(nil)

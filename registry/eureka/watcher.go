@@ -3,7 +3,7 @@ package eureka
 import (
 	"context"
 
-	"github.com/gososy/gopkg/registry"
+	"github.com/gososy/sorpc/registry"
 )
 
 var _ registry.Watcher = (*watcher)(nil)

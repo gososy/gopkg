@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/gososy/gopkg/config"
+	"github.com/gososy/sorpc/config"
 
 	"github.com/polarismesh/polaris-go"
 )

@@ -5,8 +5,8 @@ import (
 
 	"go.opentelemetry.io/otel/propagation"
 
-	"github.com/gososy/gopkg/app"
-	"github.com/gososy/gopkg/metadata"
+	"github.com/gososy/sorpc/app"
+	"github.com/gososy/sorpc/metadata"
 )
 
 const serviceHeader = "x-md-service-name"

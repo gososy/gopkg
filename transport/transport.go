@@ -5,11 +5,11 @@ import (
 	"net/url"
 
 	// init encoding
-	_ "github.com/gososy/gopkg/encoding/form"
-	_ "github.com/gososy/gopkg/encoding/json"
-	_ "github.com/gososy/gopkg/encoding/proto"
-	_ "github.com/gososy/gopkg/encoding/xml"
-	_ "github.com/gososy/gopkg/encoding/yaml"
+	_ "github.com/gososy/sorpc/encoding/form"
+	_ "github.com/gososy/sorpc/encoding/json"
+	_ "github.com/gososy/sorpc/encoding/proto"
+	_ "github.com/gososy/sorpc/encoding/xml"
+	_ "github.com/gososy/sorpc/encoding/yaml"
 )
 
 // Server is transport server.

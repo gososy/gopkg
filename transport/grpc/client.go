@@ -6,16 +6,16 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/gososy/gopkg/log"
-	"github.com/gososy/gopkg/middleware"
-	"github.com/gososy/gopkg/registry"
-	"github.com/gososy/gopkg/selector"
-	"github.com/gososy/gopkg/selector/wrr"
-	"github.com/gososy/gopkg/transport"
-	"github.com/gososy/gopkg/transport/grpc/resolver/discovery"
+	"github.com/gososy/sorpc/log"
+	"github.com/gososy/sorpc/middleware"
+	"github.com/gososy/sorpc/registry"
+	"github.com/gososy/sorpc/selector"
+	"github.com/gososy/sorpc/selector/wrr"
+	"github.com/gososy/sorpc/transport"
+	"github.com/gososy/sorpc/transport/grpc/resolver/discovery"
 
 	// init resolver
-	_ "github.com/gososy/gopkg/transport/grpc/resolver/direct"
+	_ "github.com/gososy/sorpc/transport/grpc/resolver/direct"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"

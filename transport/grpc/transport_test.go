@@ -5,7 +5,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/gososy/gopkg/transport"
+	"github.com/gososy/sorpc/transport"
 )
 
 func TestTransport_Kind(t *testing.T) {

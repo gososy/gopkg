@@ -5,10 +5,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/gososy/gopkg/errors"
-	"github.com/gososy/gopkg/metrics"
-	"github.com/gososy/gopkg/middleware"
-	"github.com/gososy/gopkg/transport"
+	"github.com/gososy/sorpc/errors"
+	"github.com/gososy/sorpc/metrics"
+	"github.com/gososy/sorpc/middleware"
+	"github.com/gososy/sorpc/transport"
 )
 
 // Option is metrics option.

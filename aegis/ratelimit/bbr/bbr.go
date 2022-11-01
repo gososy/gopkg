@@ -6,9 +6,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/gososy/gopkg/aegis/pkg/cpu"
-	"github.com/gososy/gopkg/aegis/pkg/window"
-	"github.com/gososy/gopkg/aegis/ratelimit"
+	"github.com/gososy/sorpc/aegis/pkg/cpu"
+	"github.com/gososy/sorpc/aegis/pkg/window"
+	"github.com/gososy/sorpc/aegis/ratelimit"
 )
 
 var (

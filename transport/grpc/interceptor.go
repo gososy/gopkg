@@ -6,9 +6,9 @@ import (
 	"google.golang.org/grpc"
 	grpcmd "google.golang.org/grpc/metadata"
 
-	ic "github.com/gososy/gopkg/internal/context"
-	"github.com/gososy/gopkg/middleware"
-	"github.com/gososy/gopkg/transport"
+	ic "github.com/gososy/sorpc/internal/context"
+	"github.com/gososy/sorpc/middleware"
+	"github.com/gososy/sorpc/transport"
 )
 
 // unaryServerInterceptor is a gRPC unary server interceptor

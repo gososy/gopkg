@@ -7,15 +7,15 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/gososy/gopkg/internal/endpoint"
-	"github.com/gososy/gopkg/internal/matcher"
+	"github.com/gososy/sorpc/internal/endpoint"
+	"github.com/gososy/sorpc/internal/matcher"
 
-	apimd "github.com/gososy/gopkg/transport/api/metadata"
+	apimd "github.com/gososy/sorpc/transport/api/metadata"
 
-	"github.com/gososy/gopkg/internal/host"
-	"github.com/gososy/gopkg/log"
-	"github.com/gososy/gopkg/middleware"
-	"github.com/gososy/gopkg/transport"
+	"github.com/gososy/sorpc/internal/host"
+	"github.com/gososy/sorpc/log"
+	"github.com/gososy/sorpc/middleware"
+	"github.com/gososy/sorpc/transport"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"

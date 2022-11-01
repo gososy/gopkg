@@ -3,7 +3,7 @@ package circuitbreaker_test
 import (
 	"fmt"
 
-	"github.com/gososy/gopkg/aegis/circuitbreaker/sre"
+	"github.com/gososy/sorpc/aegis/circuitbreaker/sre"
 )
 
 // This is a example of using a circuit breaker Do() when return nil.

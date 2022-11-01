@@ -3,7 +3,7 @@ package msgpack
 import (
 	"github.com/vmihailenco/msgpack/v5"
 
-	"github.com/gososy/gopkg/encoding"
+	"github.com/gososy/sorpc/encoding"
 )
 
 // Name is the name registered for the msgpack compressor.

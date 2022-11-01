@@ -5,7 +5,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/gososy/gopkg/selector"
+	"github.com/gososy/sorpc/selector"
 )
 
 const (

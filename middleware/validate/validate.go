@@ -3,8 +3,8 @@ package validate
 import (
 	"context"
 
-	"github.com/gososy/gopkg/errors"
-	"github.com/gososy/gopkg/middleware"
+	"github.com/gososy/sorpc/errors"
+	"github.com/gososy/sorpc/middleware"
 )
 
 type validator interface {

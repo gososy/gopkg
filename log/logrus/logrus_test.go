@@ -7,7 +7,7 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/gososy/gopkg/log"
+	"github.com/gososy/sorpc/log"
 )
 
 func TestLoggerLog(t *testing.T) {

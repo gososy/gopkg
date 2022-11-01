@@ -9,8 +9,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/gososy/gopkg/log"
-	"github.com/gososy/gopkg/registry"
+	"github.com/gososy/sorpc/log"
+	"github.com/gososy/sorpc/registry"
 )
 
 func (d *Discovery) Register(ctx context.Context, service *registry.ServiceInstance) (err error) {

@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/gososy/gopkg/middleware"
+	"github.com/gososy/sorpc/middleware"
 )
 
 func logging(module string) middleware.Middleware {

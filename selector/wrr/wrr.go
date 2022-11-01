@@ -4,8 +4,8 @@ import (
 	"context"
 	"sync"
 
-	"github.com/gososy/gopkg/selector"
-	"github.com/gososy/gopkg/selector/node/direct"
+	"github.com/gososy/sorpc/selector"
+	"github.com/gososy/sorpc/selector/node/direct"
 )
 
 const (

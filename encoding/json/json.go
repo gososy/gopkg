@@ -7,7 +7,7 @@ import (
 	"google.golang.org/protobuf/encoding/protojson"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/gososy/gopkg/encoding"
+	"github.com/gososy/sorpc/encoding"
 )
 
 // Name is the name registered for the json codec.

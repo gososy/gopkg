@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/gososy/gopkg/config"
-	"github.com/gososy/gopkg/config/file"
+	"github.com/gososy/sorpc/config"
+	"github.com/gososy/sorpc/config/file"
 )
 
 const _testJSON = `

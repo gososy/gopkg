@@ -5,9 +5,9 @@ import (
 	"errors"
 	"testing"
 
-	kratoserrors "github.com/gososy/gopkg/errors"
-	"github.com/gososy/gopkg/internal/group"
-	"github.com/gososy/gopkg/transport"
+	kratoserrors "github.com/gososy/sorpc/errors"
+	"github.com/gososy/sorpc/internal/group"
+	"github.com/gososy/sorpc/transport"
 )
 
 type transportMock struct {

@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gososy/gopkg/config"
+	"github.com/gososy/sorpc/config"
 
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

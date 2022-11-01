@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gososy/gopkg/registry"
+	"github.com/gososy/sorpc/registry"
 
 	"github.com/polarismesh/polaris-go/pkg/config"
 )

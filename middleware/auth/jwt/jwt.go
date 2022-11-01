@@ -8,9 +8,9 @@ import (
 	"github.com/golang-jwt/jwt/v4"
 	//"github.com/golang-jwt/jwt/v4"
 
-	"github.com/gososy/gopkg/errors"
-	"github.com/gososy/gopkg/middleware"
-	"github.com/gososy/gopkg/transport"
+	"github.com/gososy/sorpc/errors"
+	"github.com/gososy/sorpc/middleware"
+	"github.com/gososy/sorpc/transport"
 )
 
 type authKey struct{}

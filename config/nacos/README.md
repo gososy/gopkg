@@ -2,7 +2,7 @@
 
 ```go
 import (
-	kconfig "github.com/gososy/gopkg/config"
+	kconfig "github.com/gososy/sorpc/config"
 	"github.com/nacos-group/nacos-sdk-go/clients"
 	"github.com/nacos-group/nacos-sdk-go/common/constant"
 )

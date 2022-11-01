@@ -5,8 +5,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/gososy/gopkg/config"
-	"github.com/gososy/gopkg/log"
+	"github.com/gososy/sorpc/config"
+	"github.com/gososy/sorpc/log"
 
 	"github.com/polarismesh/polaris-go"
 	"github.com/polarismesh/polaris-go/pkg/model"

@@ -3,7 +3,7 @@ package servicecomb
 import (
 	"github.com/go-chassis/sc-client"
 
-	"github.com/gososy/gopkg/registry"
+	"github.com/gososy/sorpc/registry"
 	"golang.org/x/net/context"
 )
 

@@ -4,9 +4,9 @@ import (
 	"context"
 	"runtime"
 
-	"github.com/gososy/gopkg/errors"
-	"github.com/gososy/gopkg/log"
-	"github.com/gososy/gopkg/middleware"
+	"github.com/gososy/sorpc/errors"
+	"github.com/gososy/sorpc/log"
+	"github.com/gososy/sorpc/middleware"
 )
 
 // ErrUnknownRequest is unknown request error.

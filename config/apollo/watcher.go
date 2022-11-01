@@ -4,10 +4,10 @@ import (
 	"context"
 	"strings"
 
-	"github.com/gososy/gopkg/encoding"
+	"github.com/gososy/sorpc/encoding"
 
-	"github.com/gososy/gopkg/config"
-	"github.com/gososy/gopkg/log"
+	"github.com/gososy/sorpc/config"
+	"github.com/gososy/sorpc/log"
 
 	"github.com/apolloconfig/agollo/v4/storage"
 )

@@ -9,8 +9,8 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/gososy/gopkg/middleware"
-	"github.com/gososy/gopkg/registry"
+	"github.com/gososy/sorpc/middleware"
+	"github.com/gososy/sorpc/registry"
 )
 
 func TestWithEndpoint(t *testing.T) {

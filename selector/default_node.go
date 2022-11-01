@@ -3,7 +3,7 @@ package selector
 import (
 	"strconv"
 
-	"github.com/gososy/gopkg/registry"
+	"github.com/gososy/sorpc/registry"
 )
 
 var _ Node = (*DefaultNode)(nil)

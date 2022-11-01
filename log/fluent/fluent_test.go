@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gososy/gopkg/log"
+	"github.com/gososy/sorpc/log"
 )
 
 func TestMain(m *testing.M) {

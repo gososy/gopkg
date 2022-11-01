@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gososy/gopkg/config"
+	"github.com/gososy/sorpc/config"
 )
 
 const (

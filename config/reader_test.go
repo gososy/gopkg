@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/gososy/gopkg/encoding"
+	"github.com/gososy/sorpc/encoding"
 )
 
 func TestReader_Merge(t *testing.T) {

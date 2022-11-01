@@ -4,7 +4,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/gososy/gopkg/config"
+	"github.com/gososy/sorpc/config"
 )
 
 type env struct {

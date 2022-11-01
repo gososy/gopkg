@@ -8,7 +8,7 @@ import (
 	"github.com/nacos-group/nacos-sdk-go/clients/config_client"
 	"github.com/nacos-group/nacos-sdk-go/vo"
 
-	"github.com/gososy/gopkg/config"
+	"github.com/gososy/sorpc/config"
 )
 
 type Option func(*options)

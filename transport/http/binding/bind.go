@@ -4,10 +4,10 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/gososy/gopkg/errors"
+	"github.com/gososy/sorpc/errors"
 
-	"github.com/gososy/gopkg/encoding"
-	"github.com/gososy/gopkg/encoding/form"
+	"github.com/gososy/sorpc/encoding"
+	"github.com/gososy/sorpc/encoding/form"
 )
 
 // BindQuery bind vars parameters to target.

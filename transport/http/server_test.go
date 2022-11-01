@@ -14,8 +14,8 @@ import (
 	"testing"
 	"time"
 
-	kratoserrors "github.com/gososy/gopkg/errors"
-	"github.com/gososy/gopkg/internal/host"
+	kratoserrors "github.com/gososy/sorpc/errors"
+	"github.com/gososy/sorpc/internal/host"
 )
 
 var h = func(w http.ResponseWriter, r *http.Request) {

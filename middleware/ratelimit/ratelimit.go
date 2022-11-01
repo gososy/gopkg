@@ -3,11 +3,11 @@ package ratelimit
 import (
 	"context"
 
-	"github.com/gososy/gopkg/aegis/ratelimit"
-	"github.com/gososy/gopkg/aegis/ratelimit/bbr"
+	"github.com/gososy/sorpc/aegis/ratelimit"
+	"github.com/gososy/sorpc/aegis/ratelimit/bbr"
 
-	"github.com/gososy/gopkg/errors"
-	"github.com/gososy/gopkg/middleware"
+	"github.com/gososy/sorpc/errors"
+	"github.com/gososy/sorpc/middleware"
 )
 
 // ErrLimitExceed is service unavailable due to rate limit exceeded.

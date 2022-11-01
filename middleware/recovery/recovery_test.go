@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/gososy/gopkg/errors"
-	"github.com/gososy/gopkg/log"
+	"github.com/gososy/sorpc/errors"
+	"github.com/gososy/sorpc/log"
 )
 
 func TestOnce(t *testing.T) {

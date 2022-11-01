@@ -3,13 +3,13 @@ package circuitbreaker
 import (
 	"context"
 
-	"github.com/gososy/gopkg/aegis/circuitbreaker"
-	"github.com/gososy/gopkg/aegis/circuitbreaker/sre"
+	"github.com/gososy/sorpc/aegis/circuitbreaker"
+	"github.com/gososy/sorpc/aegis/circuitbreaker/sre"
 
-	"github.com/gososy/gopkg/errors"
-	"github.com/gososy/gopkg/internal/group"
-	"github.com/gososy/gopkg/middleware"
-	"github.com/gososy/gopkg/transport"
+	"github.com/gososy/sorpc/errors"
+	"github.com/gososy/sorpc/internal/group"
+	"github.com/gososy/sorpc/middleware"
+	"github.com/gososy/sorpc/transport"
 )
 
 // ErrNotAllowed is request failed due to circuit breaker triggered.

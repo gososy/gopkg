@@ -5,9 +5,9 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/gososy/gopkg/encoding"
-	"github.com/gososy/gopkg/errors"
-	"github.com/gososy/gopkg/internal/httputil"
+	"github.com/gososy/sorpc/encoding"
+	"github.com/gososy/sorpc/errors"
+	"github.com/gososy/sorpc/internal/httputil"
 )
 
 // SupportPackageIsVersion1 These constants should not be referenced from any other code.

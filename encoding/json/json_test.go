@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	testData "github.com/gososy/gopkg/testdata/encoding"
+	testData "github.com/gososy/sorpc/testdata/encoding"
 )
 
 type testEmbed struct {

@@ -7,8 +7,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/gososy/gopkg/aegis/circuitbreaker"
-	"github.com/gososy/gopkg/aegis/pkg/window"
+	"github.com/gososy/sorpc/aegis/circuitbreaker"
+	"github.com/gososy/sorpc/aegis/pkg/window"
 )
 
 // Option is sre breaker option function.

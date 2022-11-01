@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gososy/gopkg/registry"
+	"github.com/gososy/sorpc/registry"
 )
 
 var (

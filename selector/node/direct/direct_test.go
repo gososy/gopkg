@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gososy/gopkg/registry"
-	"github.com/gososy/gopkg/selector"
+	"github.com/gososy/sorpc/registry"
+	"github.com/gososy/sorpc/selector"
 )
 
 func TestDirect(t *testing.T) {

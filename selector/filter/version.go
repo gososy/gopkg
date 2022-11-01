@@ -3,7 +3,7 @@ package filter
 import (
 	"context"
 
-	"github.com/gososy/gopkg/selector"
+	"github.com/gososy/sorpc/selector"
 )
 
 // Version is version filter.

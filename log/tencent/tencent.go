@@ -9,7 +9,7 @@ import (
 	cls "github.com/tencentcloud/tencentcloud-cls-sdk-go"
 	"google.golang.org/protobuf/proto"
 
-	log "github.com/gososy/gopkg/log"
+	log "github.com/gososy/sorpc/log"
 )
 
 type Logger interface {

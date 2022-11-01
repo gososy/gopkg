@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gososy/gopkg/registry"
+	"github.com/gososy/sorpc/registry"
 )
 
 func TestRegistry(t *testing.T) {

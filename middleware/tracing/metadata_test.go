@@ -6,8 +6,8 @@ import (
 	"testing"
 
 	//"github.com/go-kratos/kratos/v2"
-	//"github.com/gososy/gopkg/app"
-	"github.com/gososy/gopkg/metadata"
+	//"github.com/gososy/sorpc/app"
+	"github.com/gososy/sorpc/metadata"
 
 	"go.opentelemetry.io/otel/propagation"
 )

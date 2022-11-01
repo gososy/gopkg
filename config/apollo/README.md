@@ -12,7 +12,7 @@ import (
 	"log"
 
 	"github.com/go-kratos/kratos/contrib/config/apollo/v2"
-	"github.com/gososy/gopkg/config"
+	"github.com/gososy/sorpc/config"
 )
 
 func main() {

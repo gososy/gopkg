@@ -3,15 +3,15 @@ package apollo
 import (
 	"strings"
 
-	"github.com/gososy/gopkg/config"
-	"github.com/gososy/gopkg/log"
+	"github.com/gososy/sorpc/config"
+	"github.com/gososy/sorpc/log"
 
 	"github.com/apolloconfig/agollo/v4"
 	"github.com/apolloconfig/agollo/v4/constant"
 	apolloConfig "github.com/apolloconfig/agollo/v4/env/config"
 	"github.com/apolloconfig/agollo/v4/extension"
 
-	"github.com/gososy/gopkg/encoding"
+	"github.com/gososy/sorpc/encoding"
 )
 
 type apollo struct {

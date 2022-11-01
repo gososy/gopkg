@@ -7,7 +7,7 @@ import (
 
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/gososy/gopkg/internal/testdata/binding"
+	"github.com/gososy/sorpc/internal/testdata/binding"
 )
 
 func Test_NewTracer(t *testing.T) {

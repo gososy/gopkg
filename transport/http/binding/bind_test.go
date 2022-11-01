@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gososy/gopkg/errors"
+	"github.com/gososy/sorpc/errors"
 )
 
 func TestBindQuery(t *testing.T) {

@@ -7,10 +7,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gososy/gopkg/internal/endpoint"
-	"github.com/gososy/gopkg/log"
-	"github.com/gososy/gopkg/registry"
-	"github.com/gososy/gopkg/selector"
+	"github.com/gososy/sorpc/internal/endpoint"
+	"github.com/gososy/sorpc/log"
+	"github.com/gososy/sorpc/registry"
+	"github.com/gososy/sorpc/selector"
 )
 
 // Target is resolver target

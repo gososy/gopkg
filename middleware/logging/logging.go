@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/gososy/gopkg/errors"
-	"github.com/gososy/gopkg/log"
-	"github.com/gososy/gopkg/middleware"
-	"github.com/gososy/gopkg/transport"
+	"github.com/gososy/sorpc/errors"
+	"github.com/gososy/sorpc/log"
+	"github.com/gososy/sorpc/middleware"
+	"github.com/gososy/sorpc/transport"
 )
 
 // Server is an server logging middleware.

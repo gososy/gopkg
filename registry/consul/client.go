@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gososy/gopkg/log"
-	"github.com/gososy/gopkg/registry"
+	"github.com/gososy/sorpc/log"
+	"github.com/gososy/sorpc/registry"
 
 	"github.com/hashicorp/consul/api"
 )

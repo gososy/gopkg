@@ -8,11 +8,11 @@ import (
 	"time"
 
 	// init encoding
-	_ "github.com/gososy/gopkg/encoding/json"
-	_ "github.com/gososy/gopkg/encoding/proto"
-	_ "github.com/gososy/gopkg/encoding/xml"
-	_ "github.com/gososy/gopkg/encoding/yaml"
-	"github.com/gososy/gopkg/log"
+	_ "github.com/gososy/sorpc/encoding/json"
+	_ "github.com/gososy/sorpc/encoding/proto"
+	_ "github.com/gososy/sorpc/encoding/xml"
+	_ "github.com/gososy/sorpc/encoding/yaml"
+	"github.com/gososy/sorpc/log"
 )
 
 var (

@@ -4,7 +4,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/gososy/gopkg/middleware"
+	"github.com/gososy/sorpc/middleware"
 )
 
 // Matcher is a middleware matcher.

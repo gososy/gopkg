@@ -1,9 +1,9 @@
 package grpc
 
 import (
-	"github.com/gososy/gopkg/registry"
-	"github.com/gososy/gopkg/selector"
-	"github.com/gososy/gopkg/transport"
+	"github.com/gososy/sorpc/registry"
+	"github.com/gososy/sorpc/selector"
+	"github.com/gososy/sorpc/transport"
 
 	"google.golang.org/grpc/balancer"
 	"google.golang.org/grpc/balancer/base"

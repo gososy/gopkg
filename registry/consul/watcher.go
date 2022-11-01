@@ -3,7 +3,7 @@ package consul
 import (
 	"context"
 
-	"github.com/gososy/gopkg/registry"
+	"github.com/gososy/sorpc/registry"
 )
 
 type watcher struct {

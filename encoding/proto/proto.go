@@ -3,7 +3,7 @@
 package proto
 
 import (
-	"github.com/gososy/gopkg/encoding"
+	"github.com/gososy/sorpc/encoding"
 
 	"google.golang.org/protobuf/proto"
 )

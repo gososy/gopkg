@@ -7,7 +7,7 @@ import (
 
 	"google.golang.org/grpc/metadata"
 
-	"github.com/gososy/gopkg/selector"
+	"github.com/gososy/sorpc/selector"
 )
 
 func TestTrailer(t *testing.T) {

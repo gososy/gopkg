@@ -11,8 +11,8 @@ import (
 	"github.com/go-chassis/sc-client"
 
 	"github.com/gofrs/uuid"
-	"github.com/gososy/gopkg/log"
-	"github.com/gososy/gopkg/registry"
+	"github.com/gososy/sorpc/log"
+	"github.com/gososy/sorpc/registry"
 )
 
 func init() {

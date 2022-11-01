@@ -9,9 +9,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gososy/gopkg/log"
+	"github.com/gososy/sorpc/log"
 
-	"github.com/gososy/gopkg/registry"
+	"github.com/gososy/sorpc/registry"
 
 	"github.com/polarismesh/polaris-go/api"
 	"github.com/polarismesh/polaris-go/pkg/config"

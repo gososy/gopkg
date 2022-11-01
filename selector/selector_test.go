@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gososy/gopkg/registry"
+	"github.com/gososy/sorpc/registry"
 )
 
 var errNodeNotMatch = errors.New("node is not match")

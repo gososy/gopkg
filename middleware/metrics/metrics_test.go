@@ -5,9 +5,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/gososy/gopkg/metrics"
-	"github.com/gososy/gopkg/transport"
-	"github.com/gososy/gopkg/transport/http"
+	"github.com/gososy/sorpc/metrics"
+	"github.com/gososy/sorpc/transport"
+	"github.com/gososy/sorpc/transport/http"
 )
 
 type (

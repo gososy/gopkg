@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gososy/gopkg/internal/host"
+	"github.com/gososy/sorpc/internal/host"
 )
 
 const appJSONStr = "application/json"

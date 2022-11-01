@@ -6,9 +6,9 @@ import (
 	"errors"
 	"time"
 
-	"github.com/gososy/gopkg/internal/endpoint"
-	"github.com/gososy/gopkg/log"
-	"github.com/gososy/gopkg/registry"
+	"github.com/gososy/sorpc/internal/endpoint"
+	"github.com/gososy/sorpc/log"
+	"github.com/gososy/sorpc/registry"
 
 	"google.golang.org/grpc/attributes"
 	"google.golang.org/grpc/resolver"

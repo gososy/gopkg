@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gososy/gopkg/registry"
-	"github.com/gososy/gopkg/selector"
-	"github.com/gososy/gopkg/selector/filter"
+	"github.com/gososy/sorpc/registry"
+	"github.com/gososy/sorpc/selector"
+	"github.com/gososy/sorpc/selector/filter"
 )
 
 func TestWrr3(t *testing.T) {

@@ -5,8 +5,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/gososy/gopkg/encoding"
-	"github.com/gososy/gopkg/log"
+	"github.com/gososy/sorpc/encoding"
+	"github.com/gososy/sorpc/log"
 )
 
 // Decoder is config decoder.

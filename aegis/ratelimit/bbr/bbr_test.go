@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gososy/gopkg/aegis/pkg/window"
-	"github.com/gososy/gopkg/aegis/ratelimit"
+	"github.com/gososy/sorpc/aegis/pkg/window"
+	"github.com/gososy/sorpc/aegis/ratelimit"
 	"github.com/stretchr/testify/assert"
 )
 

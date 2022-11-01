@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/gososy/gopkg/errors"
+	"github.com/gososy/sorpc/errors"
 )
 
 func TestDefaultRequestDecoder(t *testing.T) {
